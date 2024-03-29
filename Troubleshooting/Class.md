@@ -161,15 +161,32 @@ You may need approval from other IT staff members before making changes
 ---
 
 # Step 5. Implement the solution or escalate as necessary
+Implement your solution at your level if you can.
+Keep in mind if a fix causes other outages that may effect others, you SHOULD alert them. This is usually a reboot of some sort.
+
+Outages over 15 minutes usually have to be reported up but this can be unit/organization specific.
 
 ---
 
 # Step 6. Verify full system functionality and, if applicable, implement preventive measures
+This step is where you may have to start back at step 2 or 3.
+Implelent your solution and validate everything works. 
+**In my experience you want to validate yourself if possible**
+If your fix doesnt work, go back and see if your 'Theory of probable cause' could still be the same.
+Start thinking about if you need to report this incident if you havent already.
+
+If you validate your fix worked, implement preventative measures if you can.
+* i.e. if someone tripped on a cable, move the cable out of the way or anchor it.
+
+Alert the customer the service should be back up.
 
 ---
 # Step 7. Document findings, actions, outcomes and lessons learned
+Be sure to always document any fixes. This can be tedious but important.
+Especially if you built any automation/scripts to deal with this fix.
 
-
+If you see this problem accuring often, start looking at macro level services and the organization. 
+Can you do anything ensure this doesnt keep happening?
 
 
 
